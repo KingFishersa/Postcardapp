@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="72" width="354" height="54"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM2-4q-qZ9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="134" width="266" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="OK5-V2-Gr5"/>
                                 <exclude reference="ZLn-tI-2XE"/>
                                 <exclude reference="ozG-Ej-sJb"/>
+                                <exclude reference="zM2-4q-qZ9"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="OK5-V2-Gr5"/>
                                 <include reference="ZLn-tI-2XE"/>
                                 <include reference="ozG-Ej-sJb"/>
+                                <include reference="zM2-4q-qZ9"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="5Nr-ks-hyb" id="LU3-n5-KoU"/>
                         <outlet property="mailButton" destination="ZLn-tI-2XE" id="8D1-qg-fTb"/>
                         <outlet property="messageLabel" destination="ozG-Ej-sJb" id="MWc-2B-jSA"/>
+                        <outlet property="nameLabel" destination="zM2-4q-qZ9" id="zlo-0h-pmF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
